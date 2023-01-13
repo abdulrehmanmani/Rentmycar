@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: none;}
+body{
+    background: rgb(212, 212, 212);
+    width: 1340px;
+    margin: auto;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 10px;
+background: gray;
+
+}
+    
+    .navbar div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar div h3{
+      margin-left: 50px;
+    }
+    .navbar div i{
+        margin-left: 50px;
+        margin-right: 50px;
+        
+      }
+      .navbar div a{
+      text-decoration: none;
+      color: white;
+      
+    
+      }
+      .navbar div i{
+        cursor: pointer;
+        color: white;
+      }
+      .navbar div i b{
+        margin-left: 5px;
+      }
+      .feature{
+     
+        padding-top: 50px;
+        position: relative;
+        height: 500px;
+        border-top: 5px solid rgb(232, 85, 85);
+        border-left: 5px solid rgb(232, 85, 85);
+      }
+      .feature h1{
+        color: rgb(67, 67, 68);
+        text-align: center;
+        font-size: 60px;
+        position: absolute;
+        top: 300px;
+        left: 501px;
+        
+    animation: text1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+      }
+      @keyframes text1 {
+  
+     from {
+      top: 300px;
+     }
+     to {
+top:50px;
+     }
+      }
+      .feature-down-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        border-top: 1px solid black;
+        padding: 15px 0;
+   
+      }
+      .feature-down-bar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .feature-down-bar ul li{
+        list-style: none;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .feature-down-bar ul li h2{
+        color: black;
+      }
+      .feature-down-bar ul li h3{
+        color: black;
+      }
+      .feature-down-bar ul li h4{
+        color: black;
+      }
+      .hero-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 56px;
+        width: 194px;
+        background: white;
+        
+      
+      }
+   
+
+      .hero-button p{
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+      }
+      .feature2{
+     
+        padding-top: 50px;
+        position: relative;
+        height: 500px;
+        border-top: 5px solid rgb(255, 255, 75);
+        border-right: 5px solid rgb(255, 255, 75);
+      }
+      .feature2 h1{
+        position: absolute;
+        left: 0;
+        margin-left: 20px;
+        font-size: 30px;
+     color: white;
+
+    }
+    @keyframes text2 {
+  
+      from {
+       left: 0;
+      }
+      to {
+ left:200px;
+      }
+       }
+      .feature-down-bar2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        
+        padding: 15px 0;
+   
+      }
+      .card{
+        background: black;
+        border-radius: 50px;
+        padding: 20px;
+        position: absolute;
+        left:-500px;
+        bottom: 20px;
+        
+        width: 25%;
+margin-left: 50px;
+
+   
+      }
+      
+      @keyframes card{
+        
+  
+        from {
+         left: -500px;
+        }
+        to {
+   left:900px;
+        }
+         }
+      .card h2{
+        color: white;
+        margin-bottom: 30px;
+      }
+      .card p{
+        color: white;
+        margin-bottom: 30px;
+      }
+      .card a{
+        color: white;
+      }
+      .latest{
+        padding: 30px;
+        background-color: rgb(232, 232, 232);
+      }
+      .latest h1{
+margin: 20px;
+font-size: 50px;
+text-align: center;
+      }
+      .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .col{
+        position: relative;
+        flex-basis: 32%;
+       
+       
+      }
+      .col img{
+        width: 100%;
+     
+        
+      }
+.col h3{
+    position: absolute;
+bottom: 50px;
+left: 30px;
+font-size: 30px;
+color: white;}
+
+
+      /*********************footer***********/
+      .col1{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+   
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        background: gray;
+    }
+    .col2{
+        display: flex;
+     
+        margin: 25px;
+    }
+    .col2 a svg {
+        margin: 20px;
+    }
+    
+    
+    
+    .col2 a svg  path.socialhover:hover{
+        fill: white;
+
+    }
+    
+    
+    
+    .row1{
+     
+       
+        height: fit-content;
+        width: max;
+        
+      
+        
+        
+    
+       
+    }
+    .cardcol1{
+        float: left;
+      
+      
+       
+        
+    
+    
+    height: fit-content;
+    
+    
+    }
+    .cardcol2{
+        float: left;
+        
+      
+        
+    
+    
+    height: fit-content;
+    
+    
+    }
+    /**********col-menu***********/
+    .row-menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      padding:150px;
+      position: relative;
+    }
+    .col-menu{
+
+      flex-basis: 45%;
+
+    }
+    .col-menu h1{
+
+      color: white;
+      font-size: 60px;
+      line-height: 120px;
+    }
+    .menubar{
+      background: black;
+      position: absolute;
+      top: -800px;
+      width: 100%;
+      transition: 2s;
+    }
+    .social-bar{
+      position: absolute;
+      bottom: 20px;
+      right: 100px;
+    }
+    .row-menu i{
+      color: white;
+      position: absolute;
+      top:50px;
+      right: 100px;
+      cursor: pointer;
+    
+    }
+    .effect1{
+      position: relative;
+     
+      opacity: 0;
+      transition: all 2s ease;
+  }
+  .effect1.effectactive1{
+     
+      opacity: 1;
+      animation: text2 2s 1 forwards;
+     
+  
+  }
+  .effect2{
+    position: relative;
+   
+    opacity: 0;
+    transition: all 4s ease;
+}
+.effect2.effectactive2{
+   
+    opacity: 1;
+    animation: card 4s 1 forwards;
+   
+
+}
+
